@@ -1,0 +1,33 @@
+/* Réinitialiser les marges et paddings par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: -150px;
+    
+}
+
+/* Réinitialiser les marges et paddings de html et body */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Eviter le débordement horizontal */
+    align-items: center;
+}
+
+/* Styliser le header */
+header {
+    /* Image de fond */
+    background-image: url('/public/image/ecriture.png'), url('/public/image/fondentete.png');
+    background-size: auto, cover; /* Couvrir l'espace disponible */
+    background-position: center, center; /* Centrer les images */
+    background-repeat: no-repeat, no-repeat; /* Ne pas répéter les images */
+    height: 300px; /* Hauteur de l'en-tête */
+    width: 120%; /* Occupe toute la largeur de l'écran */
+    overflow: hidden; /* S'assurer que tout débordement est caché */
+    display: flex; /* Utilisation de flexbox pour centrer le contenu */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
