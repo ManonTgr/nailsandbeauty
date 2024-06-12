@@ -1,11 +1,20 @@
 @extends('base')
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Home Page</title>
-</head>
-<body>
-    <h1>Bienvenue sur la page d'accueil</h1>
-</body>
-</html>
+<section class="home">
+    @section('title', 'Accueil')
+
+    @section('content')
+       //
+        <h1>Nails and Beauty 
+            <br>
+            CONCEPT
+        </h1>
+        <br><br><br>
+    </section>
+    {{-- <div class="espace"></div> --}}
+    {{-- <section class="actualite">
+       
+
+    </section><br><br><br><br><br> --}}
+@endsection
+

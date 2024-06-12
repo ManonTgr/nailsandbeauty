@@ -7,18 +7,9 @@
     
 }
 
-/* Réinitialiser les marges et paddings de html et body */
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden; /* Eviter le débordement horizontal */
-    align-items: center;
-}
 
 /* Styliser le header */
-header {
+header .image{
     /* Image de fond */
     background-image: url('/public/image/ecriture.png'), url('/public/image/fondentete.png');
     background-size: auto, cover; /* Couvrir l'espace disponible */
@@ -30,4 +21,32 @@ header {
     display: flex; /* Utilisation de flexbox pour centrer le contenu */
     justify-content: center; /* Centrer horizontalement */
     align-items: center; /* Centrer verticalement */
+}
+
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrer verticalement */
+    align-items: center; /* Centrer horizontalement */
+    height: 100%; /* Pour occuper toute la hauteur disponible */
+    margin-top: -440px;
+    list-style-type: none; /* Supprime les puces par défaut */
+    
+}
+   
+.home{
+    list-style-type: none; /* Supprime les puces par défaut */
+}
+
+
+
+/* Réinitialiser les marges et paddings de html et body */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Eviter le débordement horizontal */
+    align-items: center;
 }

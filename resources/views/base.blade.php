@@ -16,12 +16,10 @@
 </head>
 <body>
     <header>
+        <header class="image"></header>
+
         <div class="header-content">
-            <div>
-                <img src="Images/OCNAMO.png" alt="Chemin de randonnée au milieu des montagnes"
-                    title="Cliquez pour agrandir">
-            </div>
-            <p class="titre"><i>~~ O CNAMO ~~</i></p>
+            
             <nav>
                 <ul>
 
