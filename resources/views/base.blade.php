@@ -55,7 +55,7 @@
 
     <footer>
         @section('footer')
-            Copyright 2022
+            
         @show
     </footer>
 </body>

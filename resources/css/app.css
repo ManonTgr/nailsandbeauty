@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    border: 3px solid black;
+    background: linear-gradient(to right, #feb0ab, white, #feb0ab);
+}
 /* Styliser le header */
 /* Styliser le header */
 header .image {
@@ -30,7 +34,6 @@ header .image {
     align-items: center;
     width: 100%;
     height: 100px;
-    border: 3px solid black;
 }
 
 /* Menu stylisé */
@@ -39,12 +42,16 @@ header .image {
     display: flex;
     justify-content: center; /* Centre les éléments horizontalement */
     align-items: center; /* Centre les éléments verticalement */
-    width: 100%; /* Occupe toute la largeur disponible */
+    width: 1920px; /* Occupe toute la largeur disponible */
     padding: 0;
     text-decoration: none;        /* Suppression du soulignement */
     background-color: #e8d9c6; 
     margin-top: -40px;
-    background-size: auto;
+    background-size: 100%;
+    border: 2px solid black; /* Bordure de 1px, solide, noire */
+    padding: 10px; /* Ajouter un padding pour espacer le contenu de la bordure */
+    margin: 0%; 
+    margin-top: -18px;
     
 }
 
@@ -52,19 +59,28 @@ header .image {
     display: flex;
     justify-content: center; /* Centre les éléments horizontalement */
     align-items: center; /* Centre les éléments verticalement */
-    gap: 20px; /* Espacement entre les éléments du menu */
+    gap: 120px; /* Espacement entre les éléments du menu */
+    margin-top: 23px;
+    height: 19px;
 }
 
 .menu li {
     /* Styles spécifiques aux éléments li du menu */
     padding: 10px 20px;
     list-style-type: none; /* Supprimer le style de puce */
+    
     }
     
     .menu li a {
         /* Styles spécifiques aux liens du menu */
         text-decoration: none;
-        color: black;
-        font-size: 16px;
-        text-align: center     /* Alignements des liens dans le menu */
+        color: rgb(5, 1, 4);
+        font-size: 23px;
+        text-align: center;
+        font-family: cursive;
+        text-shadow: 1px 3px rgb(210, 175, 145) ;
+        padding: 9px;
+        font-style: italic;
+        
 }
+
