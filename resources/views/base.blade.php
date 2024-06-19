@@ -41,7 +41,7 @@
                     <div class="rendezvous">
                         <li>
                             <a href="{{ route('main.rendezvous') }}">Prendre rendez-vous</a>
-                            </li>
+                        </li>
                     </div> 
                     <div class="contact">
                         <li>
