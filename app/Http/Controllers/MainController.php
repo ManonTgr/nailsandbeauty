@@ -10,4 +10,14 @@ class MainController extends Controller
     {
         return view('home'); // Retourne la vue 'home.blade.php'
     }
+
+    public function index1()
+    {
+        return view('ateliers'); // Retourne la vue 'home.blade.php'
+    }
+
+    public function index2()
+    {
+        return view('tarifs'); // Retourne la vue 'tarif.blade.php'
+    }
 }

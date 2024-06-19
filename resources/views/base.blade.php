@@ -20,7 +20,7 @@
 
         <div class="header-content">
             
-            <nav>
+            <nav class="menu">
                 <ul>
 
                     <div class="home">
@@ -28,21 +28,26 @@
                             <a href="{{ route('main.home') }}">Beauty Party</a>
                         </li>
                     </div>
-                    {{-- <div class="menu">
+                     <div class="ateliers">
                         <li>
                             <a href="{{ route('main.ateliers') }}">Ateliers</a>
                         </li>
-                    </div>
-                    <div class="reservation">
+                    </div>  
+                    <div class="tarifs">
                         <li>
                             <a href="{{ route('main.tarifs') }}">Tarifs</a>
                         </li>
                     </div>
-                    <div class="contact">
+                    <div class="rendezvous">
                         <li>
                             <a href="{{ route('main.rendezvous') }}">Prendre rendez-vous</a>
+                            </li>
+                    </div> 
+                    <div class="contact">
+                        <li>
+                             <a href="{{ route('main.contact') }}">Contact</a>
                         </li>
-                    </div> --}}
+                     </div> 
                 </ul>
             </nav>
         </div>

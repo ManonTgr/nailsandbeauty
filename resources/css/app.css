@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     margin-left: -150px;
     
 }
@@ -23,24 +22,6 @@ header .image{
     align-items: center; /* Centrer verticalement */
 }
 
-
-.header-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centrer verticalement */
-    align-items: center; /* Centrer horizontalement */
-    height: 100%; /* Pour occuper toute la hauteur disponible */
-    margin-top: -440px;
-    list-style-type: none; /* Supprime les puces par défaut */
-    
-}
-   
-.home{
-    list-style-type: none; /* Supprime les puces par défaut */
-}
-
-
-
 /* Réinitialiser les marges et paddings de html et body */
 html, body {
     margin: 0;
@@ -48,5 +29,34 @@ html, body {
     width: 100%;
     height: 100%;
     overflow-x: hidden; /* Eviter le débordement horizontal */
-    align-items: center;
+}
+
+/* Menu stylisé */
+.menu {
+    display: flex;
+    justify-content: space-around; /* Espacement égal entre les éléments */
+    align-items: center; /* Centrer verticalement */
+    width: 100%; /* S'étendre sur toute la largeur disponible */
+    padding: 0;
+    list-style-type: none; /* Supprime les puces par défaut */
+}
+
+.menu li {
+    padding: 10px 20px; /* Ajouter un padding pour espacer les éléments */
+    list-style-type: none; /* Supprime les puces par défaut */
+    display: flex;
+    background-size: cover;
+    width: 100%;
+}
+
+.menu li a {
+    text-decoration: none; /* Supprimer le soulignement des liens */
+    color: black; /* Couleur du texte */
+    font-size: 16px; /* Taille de la police */
+    list-style-type: none; /* Supprime les puces par défaut */
+}
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */
 }
