@@ -53,10 +53,12 @@
         </div>
     </header>
 
-    <footer>
+    @yield('content')
+    
+</body>
+<footer>
         @section('footer')
-            
+            <p>Copyright 2024</p>
         @show
     </footer>
-</body>
 </html>
