@@ -148,3 +148,32 @@ footer {
 footer p{
     color: #e8d9c6;
 }
+
+.rectangle{
+    background-color: rgba(255, 255, 255, 0.5); /* Blanc avec une opacité de 50% */
+    border: 1px solid #000; /* Optionnel: Bordure noire pour visualiser le rectangle */
+    width: auto;
+    height: 900px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+h2{
+    display: inline-block; /* Pour que le rectangle s'adapte à la largeur du texte */
+    padding: 10px 20px;
+    border: 2px solid #000;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center; /* Centre le texte à l'intérieur du rectangle */
+    margin-top: 20px;
+}
+
+.textateliers{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.ateliers1{
+    text-align: center;
+}

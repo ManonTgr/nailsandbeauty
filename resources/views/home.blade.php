@@ -11,9 +11,9 @@
         <div class="imagenfant">
              <img src="image/fondentete.jpg">
              </div>
-            <p><p1> <i><b>Envie de devenir une princesse le temps d’une après midi ? </b></i></p1><br><br>
+            <p><p1> <i><b>Envie de devenir une princesse le temps d’un après midi ? </b></i></p1><br><br>
 
-               Tous les jours maman ce fait belle .  <br>  Aujoud’hui c’est à ton tour ! J’ai ce qu’il te faut : la Beauty Party. <br>
+               Tous les jours maman se fait belle .  <br>  Aujoud’hui c’est à ton tour ! J’ai ce qu’il te faut : la Beauty Party. <br>
                
                Mais qu’est-ce qu’une Beauty Party ?! <br>
                
@@ -21,9 +21,9 @@
                
                Pour un anniversaire, ou pour un moment entre filles, nous privatisons l’espace beauté durant 2 heures pour un événement inoubliable ! <br>
                
-               Au programme, 2h d'animation sous forme d'ateliers. <br>
+               Au programme, 2h d'animations sous forme d'ateliers. <br>
                <br>
-               Découvrez nos ateliers unique dans la rubrique «Ateliers».
+               Découvrez nos ateliers uniques dans la rubrique «Ateliers».
                
                
                
