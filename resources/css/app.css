@@ -182,9 +182,9 @@ h2{
 }
 
 .p4{
-    font-size: 30px;
+    font-size: 28px;
     margin-left: -650px;
-    margin-top: 120px;
+    margin-top: 30px;
 }
 
 .p5{
@@ -197,6 +197,7 @@ h2{
 .photoanniversaire{
     margin-top: -775px;
     margin-left: 900px;
+    margin-top: -890px;
 }
 
 #image1{
@@ -243,6 +244,7 @@ h2{
 p10{
     font-size: 50px;
     font-family: BritishMuseum;
+    margin-top: 50px;
 }
 .fade-in {
     opacity: 0;
@@ -260,3 +262,57 @@ p9{
 p11{
     margin-left: 50px;
 }
+
+p12{
+    font-size: 30px;
+}
+/* Styles du carrousel */
+.carousel {
+    position: relative;
+    width: 80%; /* Ajustez cette valeur selon la taille souhaitée du carrousel */
+    margin: auto;
+    overflow: hidden; /* Masque les parties des images qui sortent du conteneur */
+    max-width: 800px; /* Ajustez la largeur maximale selon vos besoins */
+    height: 900px; /* Ajustez la hauteur du carrousel */
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Animation fluide pour le défilement */
+    width: 100%; /* Le conteneur des images occupe toute la largeur du carrousel */
+}
+
+.carousel-images img {
+    width: 100%; /* Chaque image prend toute la largeur du carrousel */
+    height: auto; /* Conserve les proportions de l'image */
+    flex-shrink: 0; /* Empêche les images de rétrécir */
+}
+
+/* Boutons de navigation du carrousel */
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    width: 50px; /* Ajustez la taille des boutons si nécessaire */
+    height: 50px; /* Ajustez la taille des boutons si nécessaire */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 50%; /* Pour rendre les boutons ronds */
+    transform: translateY(-50%); /* Centre le bouton verticalement */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-button.left {
+    left: 10px; /* Ajoute une marge pour éviter que le bouton ne touche le bord */
+}
+
+.carousel-button.right {
+    right: 10px; /* Ajoute une marge pour éviter que le bouton ne touche le bord */
+}
+
+

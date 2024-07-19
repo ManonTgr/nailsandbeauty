@@ -18,7 +18,10 @@ Route::get('/ateliers', [MainController::class, 'ateliers'])->name('main.atelier
 
 Route::get('/tarifs', [MainController::class, 'tarifs'])->name('main.tarifs');
 
-Route::get('/rendezvous', [MainController::class, 'rendezvous']);
+Route::get('/rendezvous', function () {
+    return redirect('https://www.planity.com/nails-and-beauty-concept-encre-beaute-59147-gondecourt');
+})->name('main.rendezvous');
+
 
 Route::get('/contact', [MainController::class, 'contact'])->name('main.contact');
 // Route::get('/', function () {

@@ -40,7 +40,7 @@
                     </div>
                     <div class="rendezvous">
                         <li>
-                            <a href="{{ route('main.rendezvous') }}">Prendre rendez-vous</a>
+                            <a href="https://www.planity.com/nails-and-beauty-concept-encre-beaute-59147-gondecourt">Prendre rendez-vous</a>
                         </li>
                     </div> 
                     <div class="contact">
