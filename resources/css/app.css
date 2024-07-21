@@ -245,7 +245,12 @@ p10{
     font-size: 50px;
     font-family: BritishMuseum;
     margin-top: 50px;
+    border: 3px solid black; /* Epaisseur de 2px, style plein, couleur noire */
+    padding: 10px; /* Espace à l'intérieur de la bordure */
+    display: inline-block; /* Pour que la bordure soit ajustée au contenu du texte*/
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Ombre : décalage x, décalage y, flou, couleur */
 }
+
 .fade-in {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
@@ -265,20 +270,27 @@ p11{
 
 p12{
     font-size: 30px;
+    font-family: BritishMuseum;
+    margin-top: 50px;
+    border: 1px solid black; /* Epaisseur de 2px, style plein, couleur noire */
+    padding: 10px; /* Espace à l'intérieur de la bordure */
+    display: inline-block; /* Pour que la bordure soit ajustée au contenu du texte*/
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Ombre : décalage x, décalage y, flou, couleur */
 }
 /* Styles du carrousel */
 .carousel {
     position: relative;
-    width: 80%; /* Ajustez cette valeur selon la taille souhaitée du carrousel */
+    width: 100%; /* Ajustez cette valeur selon la taille souhaitée du carrousel */
     margin: auto;
     overflow: hidden; /* Masque les parties des images qui sortent du conteneur */
-    max-width: 800px; /* Ajustez la largeur maximale selon vos besoins */
+    max-width: 550px; /* Ajustez la largeur maximale selon vos besoins */
     height: 900px; /* Ajustez la hauteur du carrousel */
+    margin-left: 100px;
 }
 
 .carousel-images {
     display: flex;
-    transition: transform 0.5s ease-in-out; /* Animation fluide pour le défilement */
+    transition: transform 0.9s ease-in-out; /* Animation fluide pour le défilement */
     width: 100%; /* Le conteneur des images occupe toute la largeur du carrousel */
 }
 
@@ -313,6 +325,28 @@ p12{
 
 .carousel-button.right {
     right: 10px; /* Ajoute une marge pour éviter que le bouton ne touche le bord */
+}
+
+#table2{
+    height: 1000px;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#table1{
+    height: 1000px;
+    width: 550px;
+}
+
+#table3{
+    height: 1000px;
+    width: 550px;
+}
+
+.texteparty{
+    margin-top: -80px;
 }
 
 

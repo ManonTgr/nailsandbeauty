@@ -26,9 +26,9 @@
 
             <img src="image/anniversaire.png" class="photoanniversaire">
         </div>
-        <br><br><br><br><br><br><br>
+        <br><br><br><br><br>
         <div><p10>Au programme 2h d'animation sous forme d'ateliers beauté :</p10></div>
-        <br><br><br><br>
+        <br><br><br><br><br>
         <div class="photoateliers">
             <p7>Atelier Vernis "Bio"</p7>
             <p8>Atelier Maquillage</p8>
@@ -69,15 +69,18 @@
         <div class="texteparty">
             <p12> Pour l'occasion nous privatison l'espace beauté</p12>
         </div>
+        <br><br><br>
         <div class="carousel">
-            <div class="carousel-images">
-                <img src="{{ asset('image/table1.jpg') }}" alt="Image 1" id="table1">
-                <img src="{{ asset('image/maquillage.png') }}" alt="Image 2">
-                <img src="{{ asset('image/naturel.png') }}" alt="Image 3">
-            </div>
-            <button class="carousel-button left">&#10094;</button>
-            <button class="carousel-button right">&#10095;</button>
-        </div>
+    <div class="carousel-images">
+        <img src="{{ asset('image/table1.jpg') }}" alt="Image 1" id="table1">
+        <img src="{{ asset('image/photoenfantnew.jpg') }}" alt="Image 2" id="table2">
+        <img src="{{ asset('image/table6.jpg') }}" alt="Image 3" id="table3">
+        
+        
+    </div>
+    <button class="carousel-button left">&#10094;</button>
+    <button class="carousel-button right">&#10095;</button>
+</div>
         
         <script>
             document.addEventListener('DOMContentLoaded', () => {
