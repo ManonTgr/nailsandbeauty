@@ -269,13 +269,15 @@ p11{
 }
 
 p12{
-    font-size: 30px;
+    font-size: 35px;
     font-family: BritishMuseum;
-    margin-top: 50px;
+    width: 85%;
+    margin-top: 40px;
     border: 1px solid black; /* Epaisseur de 2px, style plein, couleur noire */
-    padding: 10px; /* Espace à l'intérieur de la bordure */
+    padding: 20px; /* Espace à l'intérieur de la bordure */
     display: inline-block; /* Pour que la bordure soit ajustée au contenu du texte*/
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Ombre : décalage x, décalage y, flou, couleur */
+    box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.5); /* Ombre : décalage x, décalage y, flou, couleur */
+    margin-left: 30px;
 }
 /* Styles du carrousel */
 .carousel {
@@ -283,9 +285,9 @@ p12{
     width: 100%; /* Ajustez cette valeur selon la taille souhaitée du carrousel */
     margin: auto;
     overflow: hidden; /* Masque les parties des images qui sortent du conteneur */
-    max-width: 550px; /* Ajustez la largeur maximale selon vos besoins */
+    max-width: 600px; /* Ajustez la largeur maximale selon vos besoins */
     height: 900px; /* Ajustez la hauteur du carrousel */
-    margin-left: 100px;
+    margin-left: 225px;
 }
 
 .carousel-images {
@@ -329,7 +331,7 @@ p12{
 
 #table2{
     height: 1000px;
-    width: 550px;
+    width: 505px;
     justify-content: center;
     align-items: center;
 
@@ -337,16 +339,43 @@ p12{
 
 #table1{
     height: 1000px;
-    width: 550px;
+    width: 500px;
 }
 
 #table3{
     height: 1000px;
-    width: 550px;
+    width: 500px;
 }
 
 .texteparty{
     margin-top: -80px;
 }
 
+p13{
+    text-align: right;
+}
 
+* Style pour le texte à droite du carrousel */
+.animationphoto {
+    width: 35%; /* Ajuste la largeur selon vos besoins */
+    text-align: left; /* Aligne le texte à gauche */
+    padding: 20px; /* Ajoute du padding autour du texte */
+    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+    background-color: #f9f9f9; /* Couleur de fond (ajustez si nécessaire) */
+}
+
+/* Style des paragraphes à l'intérieur de animationphoto */
+.p13 {
+    font-size: 16px; /* Ajustez la taille de la police */
+    line-height: 1.5; /* Améliore la lisibilité */
+    color: #333; /* Couleur du texte (ajustez si nécessaire) */
+    margin: 0; /* Supprime les marges par défaut */
+}
+.container {
+    display: flex; /* Utilise Flexbox pour l'alignement côte à côte */
+    
+    
+    gap: 20px; /* Ajoute de l'espace entre le carrousel et le texte */
+   
+    
+}
