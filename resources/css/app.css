@@ -287,7 +287,7 @@ p12{
     overflow: hidden; /* Masque les parties des images qui sortent du conteneur */
     max-width: 600px; /* Ajustez la largeur maximale selon vos besoins */
     height: 900px; /* Ajustez la hauteur du carrousel */
-    margin-left: 225px;
+    margin-left: -10px;
 }
 
 .carousel-images {
@@ -331,7 +331,7 @@ p12{
 
 #table2{
     height: 1000px;
-    width: 505px;
+    width: 600px;
     justify-content: center;
     align-items: center;
 
@@ -339,12 +339,12 @@ p12{
 
 #table1{
     height: 1000px;
-    width: 500px;
+    width: 600px;
 }
 
 #table3{
     height: 1000px;
-    width: 500px;
+    width: 600px;
 }
 
 .texteparty{
@@ -357,11 +357,14 @@ p13{
 
 * Style pour le texte à droite du carrousel */
 .animationphoto {
-    width: 35%; /* Ajuste la largeur selon vos besoins */
+    width: 650px; /* Ajuste la largeur selon vos besoins */
     text-align: left; /* Aligne le texte à gauche */
     padding: 20px; /* Ajoute du padding autour du texte */
     box-sizing: border-box; /* Inclut le padding dans la largeur totale */
     background-color: #f9f9f9; /* Couleur de fond (ajustez si nécessaire) */
+    margin-top: 200px;
+    height: auto;
+    
 }
 
 /* Style des paragraphes à l'intérieur de animationphoto */
@@ -370,12 +373,55 @@ p13{
     line-height: 1.5; /* Améliore la lisibilité */
     color: #333; /* Couleur du texte (ajustez si nécessaire) */
     margin: 0; /* Supprime les marges par défaut */
+    width: 100%;
+   
 }
 .container {
     display: flex; /* Utilise Flexbox pour l'alignement côte à côte */
-    
-    
+    margin-right: -150px;
+    justify-content: space-between; /* Ajoute de l'espace entre le carrousel et le texte */
+    margin: 20px auto; /* Ajuste les marges si nécessaire */
     gap: 20px; /* Ajoute de l'espace entre le carrousel et le texte */
    
+    
+}
+
+.animationphoto, p13{
+    margin-top: 250px;
+   font-size: 30px;
+   margin-left: 80px;
+   text-align: center;
+   
+}
+
+.p15 {
+    font-size: 40px;
+    text-align: center; /* Centre le texte à l'intérieur de l'élément */
+    margin: 80px auto; /* Centre l'élément horizontalement */
+    font-family: 'BritishMuseum'; /* Assurez-vous que la police est chargée */
+    border: 2px solid #000; /* Bordure noire pour visualiser le rectangle */
+    border-radius: 15px; /* Rayon des coins arrondis */
+    padding: 25px;
+    display: inline-block; /* S'adapte à la taille du texte */
+    
+    margin-left: 380px;
+}
+
+
+.rectangle2{
+    background-color: rgba(255, 255, 255, 0.5); /* Blanc avec une opacité de 50% */
+    border: 2px solid #000; /* Optionnel: Bordure noire pour visualiser le rectangle */
+    border-radius: 15px; /* Rayon des coins arrondis */
+    width: 70%;
+    height: 800px;
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+p16{
+    font-size: 30px;
+    margin-left: 50px;
+    font-family: 'BritishMuseum'; /* Assurez-vous que la police est chargée */
     
 }

@@ -83,21 +83,21 @@
                 <img src="{{ asset('image/table1.jpg') }}" alt="Image 1" id="table1">
                 <img src="{{ asset('image/photoenfantnew.jpg') }}" alt="Image 2" id="table2">
                 <img src="{{ asset('image/table6.jpg') }}" alt="Image 3" id="table3">
-
+                <img src="{{ asset('image/table7.jpg') }}" alt="Image 4" id="table4">
 
             </div>
             <button class="carousel-button left">&#10094;</button>
             <button class="carousel-button right">&#10095;</button>
         </div>
         <div class="animationphoto">
-            <p13>Goûter, décoration et cartons d'invitations inclus pour la formule anniversaire ( allergies alimentaires
+            <p13>Goûter, décoration et cartons d'invitations inclus pour la formule anniversaire <br> ( allergies alimentaires
                 éventuelles à communiquer)
-
+                <br>
                 & Bien d'autres surprises ! ✨
-
+                <br><br>
                 🍭De 6 ans à 12 ans
-
-                🧁A partir de 6 enf</p13>
+                <br><br>
+                🧁A partir de 6 enfants</p13>
         </div>
     </div>
         <script>
