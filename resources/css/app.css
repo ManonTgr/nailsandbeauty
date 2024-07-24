@@ -395,7 +395,7 @@ p13{
 }
 
 .p15 {
-    font-size: 40px;
+    font-size: 47px;
     text-align: center; /* Centre le texte à l'intérieur de l'élément */
     margin: 80px auto; /* Centre l'élément horizontalement */
     font-family: 'BritishMuseum'; /* Assurez-vous que la police est chargée */
@@ -404,24 +404,56 @@ p13{
     padding: 25px;
     display: inline-block; /* S'adapte à la taille du texte */
     
-    margin-left: 380px;
+
 }
 
 
 .rectangle2{
-    background-color: rgba(255, 255, 255, 0.5); /* Blanc avec une opacité de 50% */
+    background-image: url('/public/image/macaron.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
     border: 2px solid #000; /* Optionnel: Bordure noire pour visualiser le rectangle */
     border-radius: 15px; /* Rayon des coins arrondis */
-    width: 70%;
-    height: 800px;
-    margin-left: 250px;
-    margin-right: 50px;
+    width: 80%;
+    height: 2000px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 15px;
+    text-align: center;
 }
 
 p16{
     font-size: 30px;
-    margin-left: 50px;
     font-family: 'BritishMuseum'; /* Assurez-vous que la police est chargée */
-    
+}
+
+.p17{
+        font-size: 32px;
+        font-family: 'BritishMuseum'; /* Assurez-vous que la police est chargée */
+        margin-top: -145px;
+        position: relative;
+        display: flex;
+        margin-left: 11%;     
+}
+
+.gateaux{
+    margin-top: -145px;
+    height: 550px;
+    position: relative;
+    display: inline-block;
+}
+
+p18{
+    font-size: 45px;
+    font-family: 'BritishMuseum'; /* Assurez-vous que la police est chargée */
+}
+
+p19{
+    font-size: 35px;
+    font-family: 'BritishMuseum'; /* Assurez-vous que la police est chargée */
+    border: 2px solid #000; /* Optionnel: Bordure noire pour visualiser le rectangle */
+    border-radius: 15px; /* Rayon des coins arrondis */
+    padding: 20px;
 }
