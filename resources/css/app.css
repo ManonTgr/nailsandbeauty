@@ -466,12 +466,16 @@ p20{
 .insta{
     max-width: 150px; /* Limite la taille de l'image */
     height: 140%;
+    margin-right: 350px;
 }
 
 .p21{
-    flex: 2; /* Le texte prend tout l'espace disponible */
+    flex: 3; /* Le texte prend tout l'espace disponible */
     color: #e8d9c6;
     text-align: left;
+    margin-left: 10%;
+    margin-top: auto;
+    font-size: 20px;
 }
 .foot {
     display: flex;
@@ -481,3 +485,11 @@ p20{
     height: 50px;
 }
 
+.p22{
+    flex: 3; /* Le texte prend tout l'espace disponible */
+    color: #e8d9c6;
+    text-align: left;
+    margin-left: 35%;
+    margin-top: auto;
+    font-size: 20px;
+}
