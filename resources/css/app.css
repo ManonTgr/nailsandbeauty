@@ -417,7 +417,7 @@ p13{
     border: 2px solid #000; /* Optionnel: Bordure noire pour visualiser le rectangle */
     border-radius: 15px; /* Rayon des coins arrondis */
     width: 80%;
-    height: 2000px;
+    height: 3400px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
@@ -457,3 +457,27 @@ p19{
     border-radius: 15px; /* Rayon des coins arrondis */
     padding: 20px;
 }
+
+p20{
+    font-size: 35px;
+    font-family: 'BritishMuseum'; /* Assurez-vous que la police est chargée */
+}
+
+.insta{
+    max-width: 150px; /* Limite la taille de l'image */
+    height: 140%;
+}
+
+.p21{
+    flex: 2; /* Le texte prend tout l'espace disponible */
+    color: #e8d9c6;
+    text-align: left;
+}
+.foot {
+    display: flex;
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    justify-content: space-between; /* Espace entre les éléments */
+    padding: 3px;
+    height: 50px;
+}
+

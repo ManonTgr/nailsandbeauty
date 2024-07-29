@@ -58,7 +58,10 @@
 </body>
 <footer>
         @section('footer')
-            <p>Copyright 2024</p>
+        <div class="foot">
+            <p class="p21">Copyright 2024</p>
+            <img src="image/insta.png" class="insta">
+        </div>
         @show
     </footer>
 </html>
