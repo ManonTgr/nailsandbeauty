@@ -7,8 +7,10 @@
        
     </section>
 
-    <section class="contact">
-       
+    <section class="contact1">
+       <div class="rectangle3">
+
+       </div>
     </section>
 
 @endsection

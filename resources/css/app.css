@@ -466,7 +466,7 @@ p20{
 .insta{
     max-width: 150px; /* Limite la taille de l'image */
     height: 140%;
-    margin-right: 350px;
+    margin-right: 370px;
 }
 
 .p21{
@@ -489,7 +489,31 @@ p20{
     flex: 3; /* Le texte prend tout l'espace disponible */
     color: #e8d9c6;
     text-align: left;
-    margin-left: 35%;
+    margin-left: 40%;
     margin-top: auto;
     font-size: 20px;
 }
+
+.rectangle3{
+    
+    
+    width: auto;
+    height: 1000px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -30px;
+    background-image: url('/public/image/pink.png');
+    object-fit: cover;
+}
+
+
+
+.contact1, .rectangle3{
+    background-color: #49404a;
+    margin-top: auto;
+}
+
+.contact1{
+    margin-top: -5%;
+}
+
