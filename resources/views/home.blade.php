@@ -9,7 +9,7 @@
 
     <section class="contenu">
         <div class="imagenfant">
-             <img src="image/fondentete1.jpg">
+             <img src="image/fondentete1.jpg" class="img-fluid">
              </div>
             <p><p1> <i><b>Envie de devenir une princesse le temps d’un après midi ? </b></i></p1><br><br>
 
