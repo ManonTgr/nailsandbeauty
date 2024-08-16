@@ -238,7 +238,7 @@ h2{
 
 .photoateliers, p7{
     text-align: left;
-    margin-left: 80px;
+    margin-left: 95px;
 }
 
 p10{
@@ -417,7 +417,7 @@ p13{
     border: 2px solid #000; /* Optionnel: Bordure noire pour visualiser le rectangle */
     border-radius: 15px; /* Rayon des coins arrondis */
     width: 80%;
-    height: 3400px;
+    height: 2650px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
@@ -511,6 +511,8 @@ p20{
     width: auto;
     height: 100%;
     display: block;
+    margin-left: 35px;
+    margin-top: 30px;
 
 }
 
@@ -531,6 +533,7 @@ p21{
 p22{
     font-size: 30px;
     font-family: 'BritishMuseum';
+    
 }
 
 .facebook{
