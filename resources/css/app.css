@@ -464,9 +464,9 @@ p20{
 }
 
 .insta{
-    max-width: 150px; /* Limite la taille de l'image */
-    height: 140%;
-    margin-right: 370px;
+    max-width: 70px; /* Limite la taille de l'image */
+    height: 90%;
+    margin-right: 50px;
 }
 
 .p21{
@@ -509,8 +509,9 @@ p20{
 
 .rondcontact{
     width: auto;
-    height: auto;
+    height: 100%;
     display: block;
+
 }
 
 .texte-superpose {
@@ -532,6 +533,27 @@ p22{
     font-family: 'BritishMuseum';
 }
 
-p23{
-    font-size: 37px;
+.facebook{
+    height: 100%;
+    max-width: 55px; /* Limite la taille de l'image */
+    margin-right: 70px;
+}
+
+p24, p26{
+    font-size: 20px;
+}
+
+p27{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.p28{
+    margin-right: 50px;
+    font-size: 20px;
+    
+}
+
+p26{
+    margin-left: 50px;
 }

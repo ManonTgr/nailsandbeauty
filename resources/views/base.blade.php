@@ -59,11 +59,14 @@
 <footer>
         @section('footer')
         <div class="foot">
-            <p class="p21">Copyright 2024</p>
-            <p class="p22">Venez nous suivre via :</p>
+            <p class="p24">Copyright 2024</p24>
+            <p class="p28">Venez nous suivre via :   </p28> <p26> Instagram:</p26>
             <a href="https://www.instagram.com/nailsandbeauty_concept/">
             <img src="image/insta.png" class="insta">
             </a>
+            <p27>Facebook</p27>
+            <a href="https://www.facebook.com/NailsAndBeautyConcept/">
+                <img src="image/facebook1.png" class="facebook">
         </div>
         @show
     </footer>
